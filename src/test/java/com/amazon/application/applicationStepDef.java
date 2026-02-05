@@ -88,9 +88,9 @@ public void loginApp(String Uname,String Pwd,DataTable table) throws Exception {
 		driver.findElement(By.id("signInSubmit")).click();
 		
 		
-//		Map<String,String>data=table.asMap(String.class,String.class);
-//		for (String key : data.keySet()) {
-//			System.out.println(String.format("key : %s , value: %s", data.get(key)));
+		Map<String,String>data=table.asMap(String.class,String.class);
+		for (String key : data.keySet()) {
+		System.out.println(String.format("key : %s , value: %s", data.get(key)));
 			
 		
 
