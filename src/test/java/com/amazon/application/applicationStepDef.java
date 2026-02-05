@@ -92,10 +92,9 @@ public void loginApp(String Uname,String Pwd,DataTable table) throws Exception {
 		for (String key : data.keySet()) {
 		System.out.println(String.format("key : %s , value: %s", data.get(key)));
 			
-		
-
-		
-	} catch (Exception e) {
+		} 
+	}
+		catch (Exception e) {
 		// TODO Auto-generated catch block
 		System.out.println("Print error msg"+e.getMessage());
 		throw new Exception(e);
