@@ -85,7 +85,8 @@ public void loginApp(String Uname,String Pwd,DataTable table) throws Exception {
 		driver.findElement(By.id("continue")).click();
 		driver.findElement(By.id("ap_password")).sendKeys(Pwd);
 		screenshot.screenshot();
-		driver.findElement(By.id("signInSubmit")).click();
+		//driver.findElement(By.id("signInSubmit")).click();
+		
 		
 		
 		Map<String,String>data=table.asMap(String.class,String.class);
